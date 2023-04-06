@@ -30,6 +30,7 @@ return {
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
-    ["<leader><esc>"] = { "<C-\\><C-n>", desc = "Exit terminal mode" }, 
+    ["<leader><ESC>"] = { "<C-\\><C-n>", desc = "Exit terminal mode" },
+    ["<leader><BS>"] = { "<C-\\><C-n>", desc = "Exit terminal mode" },
   },
 }
