@@ -22,7 +22,7 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<leader>yf"] = { "<cmd>let @*=expand('%:t')<CR>", desc = "Copy filename" },
     ["<leader>yd"] = { "<cmd>let @*=expand('%:p:h')<CR>", desc = "Copy directory path" },
-    ["<leader>yp"] = { "<cmd>let @*=expand('%')<CR>", desc = "Copy relative file path" },
+    ["<leader>yp"] = { "<cmd>let @*=expand('%:.')<CR>", desc = "Copy relative file path" },
     ["<leader>yP"] = { "<cmd>let @*=expand('%:p')<CR>", desc = "Copy absolute file path" },
   },
   t = {
