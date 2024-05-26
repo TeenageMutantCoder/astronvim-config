@@ -45,10 +45,10 @@ return {
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
       gopls = {
-        filetypes = { "go", "gomod", "gowork", "gotmpl", "gohtmltmpl" },
+        filetypes = { "go", "gomod", "gowork", "gotmpl", "gohtmltmpl", "html" },
         settings = {
           gopls = {
-            templateExtensions = { "gohtml" },
+            templateExtensions = { "gohtml", "html" },
           },
         },
       },

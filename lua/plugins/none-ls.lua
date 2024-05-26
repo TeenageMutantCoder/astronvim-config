@@ -14,7 +14,7 @@ return {
       -- Set a formatter
       -- null_ls.builtins.formatting.stylua,
       null_ls.builtins.formatting.prettierd.with {
-        extra_filetypes = { "gohtmltmpl" },
+        extra_filetypes = { "gohtmltmpl", "html" },
       },
     }
     return config -- return final config table
