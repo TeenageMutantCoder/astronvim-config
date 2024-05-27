@@ -12,7 +12,7 @@ return {
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.utility.vim-fetch" },
   { import = "astrocommunity.editing-support.undotree" },
-  { import = "astrocommunity.editing-support.cutlass-nvim" },
+  -- { import = "astrocommunity.editing-support.cutlass-nvim" },
   { import = "astrocommunity.pack.typescript" },
   -- { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.go" },
